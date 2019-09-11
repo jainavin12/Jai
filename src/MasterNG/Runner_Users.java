@@ -12,6 +12,7 @@ public class Runner_Users extends Base {
 	@BeforeTest
 	public void callDriver() {
 		driverInit("test");
+		
 	}
 
 	@Test(priority = 1)
